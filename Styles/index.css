@@ -1,0 +1,28 @@
+*{
+    padding: 2px;
+}
+h2{
+    color: rgb(226, 43, 89);
+}
+h1{
+    color: rgb(218, 10, 186);
+    font-weight: 900;
+}
+h2,h2{
+    text-decoration:underline dotted;
+}
+   
+p{
+   color: rgba(1, 2, 6, 0.9);
+}
+section{
+    text-align: left;
+}
+#location{
+    text-align: justify;
+    color: brown;
+}
+.my-sections{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-style: oblique;
+     text-transform: capitalize
