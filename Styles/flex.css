@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    padding: 15px;
+}
+.navbar{
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+    
+}
+.content-section{
+    background-color: rgb(253, 127, 255);
+    display: flex;
+
+}

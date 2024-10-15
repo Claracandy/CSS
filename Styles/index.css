@@ -2,7 +2,7 @@
     padding: 2px;
 }
  body{
-    background-image: url("../assests/nairobi/Untitled.jpg\ 3.jpg");
+    background-color: blueviolet;
  }
 
 h2{
@@ -30,3 +30,26 @@ section{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      font-style: oblique;
      text-transform: capitalize
+}
+.container{
+    background-color: black;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+#item1{
+    background-color: brown;
+    padding: 20px; ;
+    flex-basis: 200px;
+}
+#item2{
+    background-color: blue;
+    padding: 20px;
+    
+}
+#item3{
+    background-color: blueviolet;
+    padding: 20px;
+}
