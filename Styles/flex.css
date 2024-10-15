@@ -1,17 +1,98 @@
-.container{
+.container {
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    background-color: rgb(24, 205, 33);
     padding: 15px;
 }
-.navbar{
+
+.navbar {
     background-color: aqua;
     padding: 10px;
     text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.content-section {
+    background-color: rgb(24, 15, 199);
+    display: flex;
+    flex-direction: row;
+    padding: 7px;
+
+}
+
+.sidebar {
+    padding: 15px;
+    background-color: brown;
+    margin-right: 5px;
+    flex-basis: 240px;
+    text-align: center;
+}
+
+.main-content {
+    padding: 15px;
+    background-color: rgb(196, 36, 156);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    ;
+}
+
+.content-row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.row11 {
+    background-color: rgb(226, 177, 43);
+    padding: 70px;
+    min-width: 15%;
+}
+
+.row12 {
+    background-color: rgb(30, 255, 0);
+    padding: 70px;
+    min-width: 15%;
     
 }
-.content-section{
-    background-color: rgb(253, 127, 255);
-    display: flex;
 
+.row13 {
+    background-color: blueviolet;
+    padding: 70px;
+    min-width: 15%;
+}
+
+.content-row2 {
+    background-color: rgb(165, 19, 126);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.row21{
+    padding: 50px;
+    background-color: blue;
+    min-width: 10%;
+}
+.row22{
+    padding: 50px;
+    background-color: rgb(202, 24, 39);
+    min-width: 10%;
+}
+.row23{
+    padding: 50px;
+    background-color: brown;
+    min-width: 10%
+}
+.row24{
+    padding: 50px;
+    background-color: rgb(221, 235, 34);
+    min-width: 10%
+}
+
+.content-row3 {
+    background-color: rgb(215, 43, 178);
+    text-align: center;
 }
