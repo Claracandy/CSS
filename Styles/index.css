@@ -1,6 +1,10 @@
 *{
     padding: 2px;
 }
+ body{
+    background-image: url("../assests/nairobi/Untitled.jpg\ 3.jpg");
+ }
+
 h2{
     color: rgb(226, 43, 89);
 }
