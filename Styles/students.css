@@ -1,0 +1,32 @@
+.form-section{
+    display: flex;
+    flex-direction:column;
+}
+.form-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+form{
+    text-align: center;
+    border-radius: 10px;
+    background-color: brown;
+    color: aqua;
+    padding: 45px;
+    margin-left: 30%;
+    font-size: medium;
+    width: 50%;
+}
+input {
+    border:solid 1px whitesmoke;
+    height: 25px;
+}
+button{
+    border: solid 1px rgb(164, 211, 24);
+    padding: 7px 15px;
+    background-color: blue;
+    border-radius: 15px;
+}
