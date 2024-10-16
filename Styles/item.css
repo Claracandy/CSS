@@ -11,3 +11,18 @@
     text-align: center;
     padding: 10px;
 }
+#header{
+    grid-column:1/7 ;
+}
+#menu{
+     grid-row: 2/4; 
+}
+#left{
+grid-column: 2/5;
+}
+#right{
+  grid-column:5/7 ;
+}
+#footer{
+grid-column: 2/7;
+}
