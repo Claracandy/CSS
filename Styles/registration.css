@@ -35,3 +35,8 @@
 #Nationalty{
     grid-column: 4/6;
 }
+button{
+    background-color: blue;
+    border-radius: 20px;
+    align-items: center;
+}
